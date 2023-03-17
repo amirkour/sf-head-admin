@@ -1,10 +1,13 @@
 {
   "name": "sf-head-admin",
   "version": "1.0.0",
-  "description": "Satisfactory Admin Site",
+  "description": "Satisfactory-head Admin Site",
   "main": "src/index.ts",
   "scripts": {
-    "test": "jest"
+    "dev": "NODE_ENV=development; PORT=3000; next dev",
+    "build": "next build",
+    "start": "next start -- --port $PORT",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/amirkour/sf-head-admin/issues"
   },
-  "homepage": "https://github.com/amirkour/sf-head-admin#readme"
+  "homepage": "https://github.com/amirkour/sf-head-admin#readme",
+  "devDependencies": {
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.2"
+  }
 }
