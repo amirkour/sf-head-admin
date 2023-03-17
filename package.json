@@ -4,7 +4,7 @@
   "description": "Satisfactory-head Admin Site",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "NODE_ENV=development; PORT=3000; next dev",
+    "dev": "NODE_ENV=development; PORT=3001; next dev",
     "build": "next build",
     "start": "next start -- --port $PORT",
     "lint": "next lint"

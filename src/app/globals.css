@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl font-bold;
+    }
+
+    h2 {
+        @apply text-2xl;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+
+    a {
+        @apply text-blue-600;
+    }
+
+    a:hover,
+    a:focus {
+        @apply text-blue-800 underline;
+    }
+
+    a:visited {
+        @apply text-purple-600;
+    }
+}
