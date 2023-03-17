@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <h1 className="text-center">hi world</h1>
-      <p>this is a tailwind paragraph!?</p>
+      <h1 className="text-center">SF HEAD ADMIN</h1>
+      <p>Hello World!🌎</p>
     </main>
   );
 }
