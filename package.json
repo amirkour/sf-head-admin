@@ -1,0 +1,19 @@
+{
+  "name": "sf-head-admin",
+  "version": "1.0.0",
+  "description": "Satisfactory Admin Site",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirkour/sf-head-admin.git"
+  },
+  "author": "Amir Kouretchian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirkour/sf-head-admin/issues"
+  },
+  "homepage": "https://github.com/amirkour/sf-head-admin#readme"
+}
